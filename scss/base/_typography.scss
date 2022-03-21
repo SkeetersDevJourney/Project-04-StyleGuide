@@ -1,11 +1,11 @@
-@use '../utilities' as u;
+@use '../utilities' as *;
 
 /* ============================================= */
 /*              Base styles                      */
 /* ============================================= */
 
 * {
-  font-family: u.$font-family;
+  font-family: $font-family;
   color: #777;
   box-sizing: border-box;
 }
@@ -23,7 +23,7 @@ a {
 /* ============================================= */
 
 .headline-primary {
-  color: u.$color-primary;
+  color: $color-primary;
   margin-left: 10px;
 }
 
@@ -33,7 +33,7 @@ a {
 }
 
 .link {
-  color: u.$color-secondary;
+  color: $color-secondary;
   font-weight: 700;
 }
 
@@ -43,6 +43,6 @@ a {
   font-style: italic;
   margin-left: 20px;
   padding-left: 20px;
-  border-left: 8px solid u.$color-primary;
+  border-left: 8px solid $color-primary;
   border-radius: 5px;
 }

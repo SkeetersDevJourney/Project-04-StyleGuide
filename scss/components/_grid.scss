@@ -1,4 +1,4 @@
-@use '../utilities' as u;
+@use '../utilities' as *;
 
 /* ============================================= */
 /*              Grid System                      */
@@ -76,7 +76,7 @@
 
 // Media Queries
 
-@include u.mq {
+@include mq {
   .row {
     flex-direction: row;
   }

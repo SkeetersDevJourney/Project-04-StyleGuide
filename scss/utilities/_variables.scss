@@ -6,4 +6,19 @@ $font-family:  'Lato', sans-serif;
 // Colors
 
 $color-primary: #58e1c1;
+
 $color-secondary: #51ddfc;
+$color-secondary-light: lighten($color-secondary, 15%) ;
+
+$c-btn-error: #e4757a;
+$c-btn-error-light: lighten($c-btn-error, 15%) ;
+
+$c-btn-info: #927bc1;
+$c-btn-info-light: lighten($c-btn-info, 15%) ;
+
+$c-btn-success: #63cc82;
+$c-btn-success-light: lighten($c-btn-success, 15%) ;
+
+$c-btn-warning: #fd7856;
+$c-btn-warning-light: lighten($c-btn-warning, 15%) ;
+

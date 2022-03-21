@@ -1,5 +1,17 @@
+// Mixins //
+
+// For Media Queries
+
 @mixin mq {
   @media (min-width: 768px){
     @content;
   }
+}
+
+// For Images
+
+@mixin img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }

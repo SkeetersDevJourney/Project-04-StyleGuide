@@ -27,7 +27,7 @@
 
 // Media Queries
 
-@include mq {
+@include mq('med') {
   .nav {
     flex-direction: row;
     justify-content: flex-end;

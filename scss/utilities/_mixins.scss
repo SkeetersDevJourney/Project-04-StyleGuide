@@ -1,9 +1,12 @@
+@use 'variables' as *;
+
 // Mixins //
 
 // For Media Queries
 
-@mixin mq {
-  @media (min-width: 768px){
+@mixin mq($bp) {
+  $value: map-get($bp-map, $bp);
+  @media (min-width: $value) {
     @content;
   }
 }
@@ -14,4 +17,13 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+// For Button Colors
+
+@mixin btn-color($color) {
+  background-color: $color;
+  &:hover {
+    background-color: lighten($color, 15%);
+  }
 }

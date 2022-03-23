@@ -15,36 +15,21 @@
 }
 
 .default {
-  background-color: $color-secondary;
-  &:hover {
-    background-color: $color-secondary-light;
-  }
+  @include btn-color($color-secondary);
 }
 
 .error {
-  background-color: $c-btn-error;
-  &:hover {
-    background-color: $c-btn-error-light;
-  }
+  @include btn-color($c-btn-error);
 }
 
 .info {
-  background-color: $c-btn-info;
-  &:hover {
-    background-color: $c-btn-info-light;
-  }
+  @include btn-color($c-btn-info);
 }
 
 .success {
-  background-color: $c-btn-success;
-  &:hover {
-    background-color: $c-btn-success-light;
-  }
+  @include btn-color($c-btn-success);
 }
 
 .warning {
-  background-color: $c-btn-warning;
-  &:hover {
-    background-color: $c-btn-warning-light;
-  }
+  @include btn-color($c-btn-warning);
 }

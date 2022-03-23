@@ -2,7 +2,7 @@
 
 // Media Queries
 
-@include mq {
+@include mq('med') {
   .container {
     max-width: 1400px;
     display: block;
